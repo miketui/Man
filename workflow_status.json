@@ -1,0 +1,17 @@
+{
+  "workflow_status": {
+    "validation_agent": "pending",
+    "factcheck_agent": "pending", 
+    "consistency_agent": "pending",
+    "integration_agent": "pending"
+  },
+  "processing_model": "all_files_per_agent",
+  "total_files": 44,
+  "environment": "terragon",
+  "setup_completed": "2025-08-29T12:41:48Z",
+  "capabilities": {
+    "npm": true,
+    "sqlite3": false,
+    "git": true
+  }
+}
