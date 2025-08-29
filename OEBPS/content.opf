@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:title>Curls & Contemplation: A Stylist’s Interactive Journey Journal</dc:title>
+    <dc:title>Curls &amp; Contemplation: A Stylist's Interactive Journey Journal</dc:title>
     <dc:creator>MD Warren</dc:creator>
     <dc:identifier id="BookId">urn:uuid:9fa5e2ef-5fd8-4f5b-9077-0b9e856cda3d</dc:identifier>
     <dc:language>en-US</dc:language>
     <dc:date>2025-05-27</dc:date>
-    <dc:rights>© 2025 MD Warren. All rights reserved.</dc:rights>
+    <dc:rights>&#169; 2025 MD Warren. All rights reserved.</dc:rights>
     <dc:publisher>MD Warren</dc:publisher>
     <dc:subject>Beauty</dc:subject>
     <dc:subject>Business</dc:subject>
