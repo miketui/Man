@@ -1,0 +1,109 @@
+Validating using EPUB version 3.3 rules.
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/9-chapter-i-unveiling-your-creative-odyssey.xhtml(215,45): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(254,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/11-chapter-iii-reigniting-your-creative-fire.xhtml(152,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml(307,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml(189,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(261,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/16-chapter-vii-embracing-wellness-and-self-care.xhtml(175,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(362,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/19-chapter-ix-stepping-into-leadership.xhtml(329,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/20-chapter-x-crafting-enduring-legacies.xhtml(239,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/21-chapter-xi-advanced-digital-strategies-for-freelance-hairstylists.xhtml(279,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/22-chapter-xii-financial-wisdom-building-sustainable-ventures.xhtml(306,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/23-chapter-xiii-embracing-ethics-and-sustainability-in-hairstyling.xhtml(440,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/25-chapter-xiv-the-impact-of-ai-on-the-beauty-industry.xhtml(299,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/26-chapter-xv-cultivating-resilience-and-well-being-in-hairstyling.xhtml(252,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/27-chapter-xvi-tresses-and-textures-embracing-diversity-in-hairstyling.xhtml(272,51): Error while parsing file: value of attribute "role" is invalid; must be equal to "complementary", "doc-dedication", "doc-example", "doc-footnote", "doc-pullquote", "doc-tip", "feed", "none", "note", "presentation", "region" or "search"
+ERROR(OPF-014): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/28-Conclusion.xhtml(-1,-1): The property "svg" should be declared in the OPF file.
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/nav.xhtml(67,27): Error while parsing file: text not allowed here; expected element "a" or "span"
+ERROR(RSC-005): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/nav.xhtml(68,9): Error while parsing file: element "ol" not allowed yet; expected element "a" or "span"
+ERROR(OPF-029): Curls-Contemplation-Stylists-Journey.epub/OEBPS/images/ruled-paper.PNG(-1,-1): The file "OEBPS/images/ruled-paper.PNG" does not appear to match the media type image/png, as specified in the OPF file.
+WARNING(PKG-022): Curls-Contemplation-Stylists-Journey.epub/OEBPS/images/ruled-paper.PNG(-1,-1): Wrong file extension for image. The image is a "JPEG" file but has the file extension "PNG".
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(325,355): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(327,361): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(329,170): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(331,216): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(333,274): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(335,246): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(337,295): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(339,365): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(341,182): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(343,253): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(345,253): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/10-chapter-ii-refining-your-creative-toolkit.xhtml(347,258): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/11-chapter-iii-reigniting-your-creative-fire.xhtml(222,243): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/11-chapter-iii-reigniting-your-creative-fire.xhtml(224,259): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/11-chapter-iii-reigniting-your-creative-fire.xhtml(226,280): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/11-chapter-iii-reigniting-your-creative-fire.xhtml(228,171): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/11-chapter-iii-reigniting-your-creative-fire.xhtml(230,296): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/11-chapter-iii-reigniting-your-creative-fire.xhtml(232,275): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/11-chapter-iii-reigniting-your-creative-fire.xhtml(234,252): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/11-chapter-iii-reigniting-your-creative-fire.xhtml(236,270): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml(383,289): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml(385,199): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml(387,267): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml(389,334): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml(391,457): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml(393,385): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml(395,295): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml(397,385): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml(399,666): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml(401,243): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml(403,215): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml(405,210): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml(407,323): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml(409,182): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml(411,268): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(344,329): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(346,178): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(348,216): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(350,299): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(352,184): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(354,232): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(356,184): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(358,289): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(360,337): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml(362,278): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/16-chapter-vii-embracing-wellness-and-self-care.xhtml(275,274): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/16-chapter-vii-embracing-wellness-and-self-care.xhtml(277,528): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/16-chapter-vii-embracing-wellness-and-self-care.xhtml(279,390): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/16-chapter-vii-embracing-wellness-and-self-care.xhtml(281,217): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/16-chapter-vii-embracing-wellness-and-self-care.xhtml(283,256): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(488,235): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(490,217): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(492,325): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(494,228): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(496,258): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(498,225): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(500,287): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(502,251): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(504,255): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(506,244): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(508,253): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(510,226): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(512,227): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(514,244): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(516,251): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(518,250): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(520,233): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml(522,248): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/19-chapter-ix-stepping-into-leadership.xhtml(434,232): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/19-chapter-ix-stepping-into-leadership.xhtml(436,296): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/19-chapter-ix-stepping-into-leadership.xhtml(438,234): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/19-chapter-ix-stepping-into-leadership.xhtml(440,263): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/19-chapter-ix-stepping-into-leadership.xhtml(442,310): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/19-chapter-ix-stepping-into-leadership.xhtml(444,222): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/20-chapter-x-crafting-enduring-legacies.xhtml(434,230): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/20-chapter-x-crafting-enduring-legacies.xhtml(436,247): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/20-chapter-x-crafting-enduring-legacies.xhtml(438,246): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/20-chapter-x-crafting-enduring-legacies.xhtml(440,274): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/20-chapter-x-crafting-enduring-legacies.xhtml(442,284): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/20-chapter-x-crafting-enduring-legacies.xhtml(444,220): Fragment identifier is not defined.
+ERROR(RSC-012): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/20-chapter-x-crafting-enduring-legacies.xhtml(446,216): Fragment identifier is not defined.
+ERROR(RSC-007): Curls-Contemplation-Stylists-Journey.epub/OEBPS/text/28-Conclusion.xhtml(77,214): Referenced resource "OEBPS/images/Conclusion-quote.png" could not be found in the EPUB.
+
+Check finished with errors
+Messages: 0 fatals / 102 errors / 1 warning / 0 infos
+
+EPUBCheck completed
