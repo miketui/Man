@@ -1,5 +1,16 @@
 {
   "mcpServers": {
+    "terragonnmcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@upstash/context7-mcp",
+        "--key",
+        "246d40c3-f601-4adf-aaef-0f2bf41aa3b7"
+      ]
+    },
     "filesystem": {
       "command": "npx",
       "args": [
