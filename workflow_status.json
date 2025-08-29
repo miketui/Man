@@ -7,5 +7,11 @@
   },
   "processing_model": "all_files_per_agent",
   "total_files": 44,
-  "last_updated": "2025-08-29T12:35:23Z"
+  "environment": "terragon",
+  "setup_completed": "2025-08-29T12:41:48Z",
+  "capabilities": {
+    "npm": true,
+    "sqlite3": false,
+    "git": true
+  }
 }
