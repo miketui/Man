@@ -54,7 +54,7 @@
     <item id="text027" href="text/27-chapter-xvi-tresses-and-textures-embracing-diversity-in-hairstyling.xhtml" media-type="application/xhtml+xml"/>
     
     <!-- Back Matter -->
-    <item id="text028" href="text/28-Conclusion.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text028" href="text/28-Conclusion.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="text029" href="text/29QuizKey.xhtml" media-type="application/xhtml+xml"/>
     <item id="text030" href="text/30-SelfAssessment.xhtml" media-type="application/xhtml+xml"/>
     <item id="text031" href="text/31-affirmations-close.xhtml" media-type="application/xhtml+xml"/>
@@ -113,7 +113,7 @@
     <item id="img25" href="images/chapter-xii-quote.JPEG" media-type="image/jpeg"/>
     <item id="img26" href="images/chapter-ix-quote.JPEG" media-type="image/jpeg"/>
     <item id="img27" href="images/chapter-i-quote.JPEG" media-type="image/jpeg"/>
-    <item id="img28" href="images/ruled-paper.PNG" media-type="image/png"/>
+    <item id="img28" href="images/ruled-paper.JPEG" media-type="image/jpeg"/>
     <item id="img29" href="images/chapter-xv-quote.JPEG" media-type="image/jpeg"/>
   </manifest>
   
