@@ -12,7 +12,50 @@
     <dc:subject>Business</dc:subject>
     <dc:subject>Personal Development</dc:subject>
     <dc:subject>Hairstyling</dc:subject>
-    <meta property="dcterms:modified">2025-01-27T10:00:00Z</meta>
+    <dc:description>An interactive journey journal for professional hairstylists featuring 16 comprehensive chapters, quizzes, worksheets, and practical strategies for building a successful, conscious hairstyling practice. Includes business development, networking, sustainability, and personal growth content with embedded fonts and professional design elements.</dc:description>
+    <meta property="dcterms:modified">2025-08-30T12:00:00Z</meta>
+    
+    <!-- EPUB Accessibility 1.1 Metadata (EU Accessibility Act Compliance) -->
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">headings</meta>
+    <meta property="schema:accessibilityFeature">printPageNumbers</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilitySummary">This publication meets WCAG 2.1 Level AA accessibility standards. All images include alternative text, content follows logical reading order, navigation is clearly structured with headings and table of contents. Interactive quizzes and worksheets are accessible via keyboard navigation and screen readers.</meta>
+    
+    <!-- Marketing and Discovery Metadata -->
+    <meta property="dcterms:audience">Professional hairstylists, beauty industry professionals, salon owners, freelance stylists</meta>
+    <meta property="schema:genre">Business Development</meta>
+    <meta property="schema:genre">Professional Development</meta>
+    <meta property="schema:genre">Beauty Industry</meta>
+    <meta property="schema:keywords">hairstyling, professional development, salon business, freelance stylist, beauty industry, networking, sustainability, interactive journal, career growth</meta>
+    <meta property="schema:typicalAgeRange">18+</meta>
+    
+    <!-- Enhanced Marketing Metadata for Platform Optimization -->
+    <meta property="belongs-to-collection" id="collection">Curls &amp; Contemplation Professional Development Series</meta>
+    <meta refines="#collection" property="collection-type">series</meta>
+    <meta refines="#collection" property="group-position">1</meta>
+    
+    <!-- BISAC Subject Codes for Better Categorization -->
+    <meta property="schema:audience" id="audience1">Professional hairstylists</meta>
+    <meta property="schema:audience" id="audience2">Beauty industry professionals</meta>
+    <meta property="schema:audience" id="audience3">Salon owners and managers</meta>
+    <meta property="schema:audience" id="audience4">Freelance beauty professionals</meta>
+    
+    <!-- Additional Discovery Metadata -->
+    <meta property="schema:contentRating">General Audiences</meta>
+    <meta property="schema:inLanguage">en-US</meta>
+    <meta property="schema:bookFormat">EBook</meta>
+    <meta property="schema:numberOfPages">300</meta>
+    <meta property="schema:copyrightYear">2025</meta>
+    
+    <!-- Series Information (EPUB Standard) -->
+    <meta property="dcterms:isPartOf">Professional Beauty Development Series</meta>
   </metadata>
   
   <manifest>
@@ -80,6 +123,7 @@
     <item id="nav" href="text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="css1" href="styles/style.css" media-type="text/css"/>
     <item id="css2" href="styles/fonts.css" media-type="text/css"/>
+    <item id="css3" href="styles/print.css" media-type="text/css"/>
     <item id="font1" href="fonts/Montserrat-Regular.woff2" media-type="font/woff2"/>
     <item id="font2" href="fonts/Montserrat-Bold.woff2" media-type="font/woff2"/>
     <item id="font3" href="fonts/librebaskerville-regular.woff2" media-type="font/woff2"/>
