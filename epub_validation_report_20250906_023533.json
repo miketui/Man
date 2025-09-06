@@ -1,0 +1,112 @@
+{
+  "validation_timestamp": "2025-09-06T02:35:33.929390",
+  "total_files": 8,
+  "valid_files": 6,
+  "invalid_files": 2,
+  "results": [
+    {
+      "file_name": "Curls-Contemplation-Stylists-Journey-BESTSELLER-20250830-030449.epub",
+      "file_path": "/home/runner/work/Man/Man/Curls-Contemplation-Stylists-Journey-BESTSELLER-20250830-030449.epub",
+      "file_size": 2255158,
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": [],
+      "summary": "Messages: 0 fatals / 0 errors / 0 warnings / 0 infos",
+      "validation_time": "2025-09-06T02:34:57.289258",
+      "return_code": 0
+    },
+    {
+      "file_name": "Curls-Contemplation-Stylists-Journey-ENHANCED.epub",
+      "file_path": "/home/runner/work/Man/Man/Curls-Contemplation-Stylists-Journey-ENHANCED.epub",
+      "file_size": 2254602,
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": [],
+      "summary": "Messages: 0 fatals / 0 errors / 0 warnings / 0 infos",
+      "validation_time": "2025-09-06T02:35:02.433589",
+      "return_code": 0
+    },
+    {
+      "file_name": "Curls-Contemplation-Stylists-Journey-FINAL.epub",
+      "file_path": "/home/runner/work/Man/Man/Curls-Contemplation-Stylists-Journey-FINAL.epub",
+      "file_size": 2255040,
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": [],
+      "summary": "Messages: 0 fatals / 0 errors / 0 warnings / 0 infos",
+      "validation_time": "2025-09-06T02:35:07.855785",
+      "return_code": 0
+    },
+    {
+      "file_name": "Curls-Contemplation-Stylists-Journey-PERFECT.epub",
+      "file_path": "/home/runner/work/Man/Man/Curls-Contemplation-Stylists-Journey-PERFECT.epub",
+      "file_size": 2253399,
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": [],
+      "summary": "Messages: 0 fatals / 0 errors / 0 warnings / 0 infos",
+      "validation_time": "2025-09-06T02:35:13.142949",
+      "return_code": 0
+    },
+    {
+      "file_name": "Curls-Contemplation-Stylists-Journey-PROFESSIONAL-BESTSELLER-20250830-080727.epub",
+      "file_path": "/home/runner/work/Man/Man/Curls-Contemplation-Stylists-Journey-PROFESSIONAL-BESTSELLER-20250830-080727.epub",
+      "file_size": 2259103,
+      "is_valid": false,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": [],
+      "summary": "Messages: 16 fatals / 4 errors / 0 warnings / 0 infos",
+      "validation_time": "2025-09-06T02:35:18.206405",
+      "return_code": 1
+    },
+    {
+      "file_name": "Curls-Contemplation-Stylists-Journey-PROFESSIONAL-BESTSELLER-20250830-080822.epub",
+      "file_path": "/home/runner/work/Man/Man/Curls-Contemplation-Stylists-Journey-PROFESSIONAL-BESTSELLER-20250830-080822.epub",
+      "file_size": 2259407,
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": [],
+      "summary": "Messages: 0 fatals / 0 errors / 0 warnings / 0 infos",
+      "validation_time": "2025-09-06T02:35:23.479424",
+      "return_code": 0
+    },
+    {
+      "file_name": "Curls-Contemplation-Stylists-Journey-PUBLISHABLE-20250830-032523.epub",
+      "file_path": "/home/runner/work/Man/Man/Curls-Contemplation-Stylists-Journey-PUBLISHABLE-20250830-032523.epub",
+      "file_size": 2255284,
+      "is_valid": true,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": [],
+      "summary": "Messages: 0 fatals / 0 errors / 0 warnings / 0 infos",
+      "validation_time": "2025-09-06T02:35:28.504523",
+      "return_code": 0
+    },
+    {
+      "file_name": "Curls-Contemplation-Stylists-Journey.epub",
+      "file_path": "/home/runner/work/Man/Man/Curls-Contemplation-Stylists-Journey.epub",
+      "file_size": 2253775,
+      "is_valid": false,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": [],
+      "summary": "Messages: 0 fatals / 102 errors / 1 warning / 0 infos",
+      "validation_time": "2025-09-06T02:35:33.927736",
+      "return_code": 1
+    }
+  ]
+}
