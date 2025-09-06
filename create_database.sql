@@ -39,3 +39,33 @@ CREATE TABLE IF NOT EXISTS processing_state (
     results_summary TEXT,
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE IF NOT EXISTS accessibility_results (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    file_path TEXT NOT NULL,
+    wcag_compliance TEXT,
+    issues TEXT,
+    wcag_compliance_score REAL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS template_compliance_results (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    file_path TEXT NOT NULL,
+    compliance_status TEXT,
+    issues_found TEXT,
+    compliance_percentage REAL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS publication_readiness_results (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    epub_file TEXT NOT NULL,
+    overall_score REAL,
+    certification_level TEXT,
+    epub_validation_score REAL,
+    structure_score REAL,
+    template_score REAL,
+    accessibility_score REAL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
