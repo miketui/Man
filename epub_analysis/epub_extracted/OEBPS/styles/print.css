@@ -1,0 +1,517 @@
+/*
+  print.css — Print-optimized styles for "Curls & Contemplation: A Stylist's Interactive Journey Journal"
+  • Based on style.css but optimized for print media (PDF generation)
+  • Includes single-page layouts, worksheet formatting, and print-specific adjustments
+  • Use with Puppeteer, wkhtmltopdf, or similar PDF generation tools
+*/
+
+/* Import fonts for print */
+@import url('fonts.css');
+
+/* =============================
+   PRINT MEDIA QUERIES & RESET
+   ============================= */
+@media print {
+  /* Print-specific reset */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  /* Page setup */
+  @page {
+    size: 8.5in 11in; /* US Letter */
+    margin: 0.75in 0.75in 1in 0.75in; /* top, right, bottom, left */
+    orphans: 3;
+    widows: 3;
+  }
+  
+  @page :first {
+    margin-top: 1in;
+  }
+  
+  /* Chapter pages */
+  @page chapter {
+    margin: 0.5in 0.75in 0.75in 0.75in;
+  }
+  
+  /* Worksheet pages */
+  @page worksheet {
+    margin: 0.5in 0.5in 0.5in 0.5in;
+  }
+}
+
+/* =============================
+   PRINT COLOR VARIABLES
+   ============================= */
+:root {
+  /* Print-safe colors (darker for readability) */
+  --print-primary: #000000;
+  --print-secondary: #333333;
+  --print-accent: #2c5aa0; /* Darker blue for print */
+  --print-border: #666666;
+  --print-background: #ffffff;
+  --print-worksheet-bg: #f8f8f8;
+  --print-muted: #555555;
+  --print-light: #777777;
+  
+  /* Print shadows (subtle) */
+  --print-shadow-light: 0 1px 2px rgba(0,0,0,0.1);
+  --print-shadow-medium: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* =============================
+   PRINT BASE STYLES
+   ============================= */
+@media print {
+  body {
+    font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+    font-size: 11pt;
+    line-height: 1.4;
+    color: var(--print-primary);
+    background: var(--print-background);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Typography for print */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel Decorative', Georgia, serif;
+    color: var(--print-primary);
+    page-break-after: avoid;
+    margin-bottom: 0.5em;
+  }
+  
+  h1 { font-size: 24pt; margin-top: 0; }
+  h2 { font-size: 18pt; margin-top: 1em; }
+  h3 { font-size: 14pt; margin-top: 0.8em; }
+  h4 { font-size: 12pt; margin-top: 0.6em; }
+  
+  p {
+    margin-bottom: 0.8em;
+    text-align: justify;
+    hyphens: auto;
+  }
+  
+  /* Prevent breaks inside elements */
+  .avoid-break,
+  .quiz-container,
+  .worksheet,
+  .image-quote,
+  .case-study,
+  .action-steps {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Force page breaks */
+  .page-break-before {
+    page-break-before: always;
+  }
+  
+  .page-break-after {
+    page-break-after: always;
+  }
+}
+
+/* =============================
+   CHAPTER TITLE PAGES (PRINT)
+   ============================= */
+@media print {
+  .chap-title {
+    page: chapter;
+    text-align: center;
+    padding: 2in 1in 1in 1in;
+    page-break-after: always;
+  }
+  
+  .chapter-number-brush {
+    position: relative;
+    margin: 0 auto 1.5in auto;
+    width: 3in;
+    height: 2in;
+  }
+  
+  .brushstroke-img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+  }
+  
+  .chapter-number-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: var(--print-primary);
+  }
+  
+  .chapter-title-word {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 28pt;
+    font-weight: bold;
+    margin: 0.2em 0;
+    color: var(--print-primary);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .bible-quote-container {
+    margin: 1.5in 0 1in 0;
+    padding: 1em;
+    border: 2px solid var(--print-border);
+    background: var(--print-worksheet-bg);
+    font-style: italic;
+  }
+  
+  .bible-quote-text {
+    font-size: 12pt;
+    margin-bottom: 0.5em;
+  }
+  
+  .bible-quote-reference {
+    font-size: 10pt;
+    color: var(--print-secondary);
+    text-align: right;
+  }
+}
+
+/* =============================
+   CHAPTER BODY CONTENT (PRINT)
+   ============================= */
+@media print {
+  .chap-body {
+    max-width: none;
+    padding: 0;
+  }
+  
+  .content-area {
+    padding: 0;
+  }
+  
+  /* Dropcap for chapter openings */
+  .dropcap-first-letter::first-letter {
+    float: left;
+    font-size: 56pt;
+    line-height: 48pt;
+    padding-right: 8pt;
+    padding-top: 4pt;
+    font-family: 'Cinzel Decorative', serif;
+    color: var(--print-accent);
+  }
+  
+  /* Content boxes */
+  .case-study,
+  .action-steps,
+  .key-takeaways {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1pt solid var(--print-border);
+    background: var(--print-worksheet-bg);
+    page-break-inside: avoid;
+  }
+  
+  .case-study h3,
+  .action-steps h2,
+  .key-takeaways h2 {
+    margin-top: 0;
+    color: var(--print-accent);
+    font-size: 14pt;
+  }
+}
+
+/* =============================
+   QUIZ SECTIONS (PRINT)
+   ============================= */
+@media print {
+  .quiz-container {
+    page-break-before: always;
+    padding: 1em;
+    border: 2pt solid var(--print-primary);
+    background: var(--print-background);
+    margin-bottom: 1em;
+  }
+  
+  .quiz-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 18pt;
+    text-align: center;
+    margin-bottom: 1em;
+    color: var(--print-primary);
+  }
+  
+  .quiz-container h3 {
+    font-size: 12pt;
+    margin: 1em 0 0.5em 0;
+    color: var(--print-primary);
+  }
+  
+  .quiz-options {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5em 0 1.5em 0;
+  }
+  
+  .quiz-option {
+    margin: 0.3em 0;
+    padding-left: 1.5em;
+    position: relative;
+  }
+  
+  .opt-label {
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: var(--print-accent);
+  }
+  
+  /* Add checkbox for print */
+  .quiz-option::before {
+    content: "☐";
+    position: absolute;
+    left: -1.5em;
+    color: var(--print-border);
+    font-size: 14pt;
+  }
+}
+
+/* =============================
+   WORKSHEET SECTIONS (PRINT)
+   ============================= */
+@media print {
+  .worksheet {
+    page-break-before: always;
+    padding: 1em;
+    border: 2pt solid var(--print-accent);
+    background: var(--print-worksheet-bg);
+    min-height: 8in; /* Ensure single page */
+  }
+  
+  .worksheet-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 18pt;
+    text-align: center;
+    margin-bottom: 1em;
+    color: var(--print-accent);
+  }
+  
+  .worksheet h3 {
+    font-size: 14pt;
+    margin: 1.5em 0 0.5em 0;
+    color: var(--print-primary);
+  }
+  
+  .worksheet ol,
+  .worksheet ul {
+    padding-left: 1.5em;
+  }
+  
+  .worksheet li {
+    margin-bottom: 1em;
+    page-break-inside: avoid;
+  }
+  
+  /* Create lines for writing */
+  .worksheet p:empty,
+  .worksheet hr {
+    border: none;
+    border-bottom: 1pt solid var(--print-border);
+    margin: 0.5em 0;
+    height: 0.8em;
+  }
+  
+  /* Create ruled lines for multiple hr elements */
+  .worksheet hr + hr + hr {
+    margin-top: -0.3em;
+  }
+}
+
+/* =============================
+   IMAGE-QUOTE SECTIONS (PRINT)
+   ============================= */
+@media print {
+  .image-quote {
+    page-break-before: always;
+    text-align: center;
+    padding: 2em 1em;
+  }
+  
+  .image-quote img {
+    max-width: 100%;
+    max-height: 6in;
+    margin-bottom: 1em;
+  }
+  
+  .image-quote figcaption {
+    font-style: italic;
+    font-size: 11pt;
+    color: var(--print-secondary);
+  }
+}
+
+/* =============================
+   FRONT/BACK MATTER (PRINT)
+   ============================= */
+@media print {
+  .front-matter,
+  .back-matter {
+    page-break-before: always;
+    padding: 1em 0;
+  }
+  
+  .title-page {
+    text-align: center;
+    padding: 3in 1in 2in 1in;
+  }
+  
+  .title-page h1 {
+    font-size: 32pt;
+    margin-bottom: 0.5em;
+  }
+  
+  .title-page .subtitle {
+    font-size: 18pt;
+    margin-bottom: 2em;
+  }
+  
+  .title-page .author {
+    font-size: 16pt;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .copyright {
+    page-break-before: always;
+    font-size: 9pt;
+    line-height: 1.3;
+  }
+  
+  .table-of-contents {
+    page-break-before: always;
+  }
+  
+  .toc-entry {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    border-bottom: 1pt dotted var(--print-border);
+  }
+  
+  .toc-title {
+    flex-grow: 1;
+  }
+  
+  .toc-page-number {
+    margin-left: 1em;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* =============================
+   FOOTNOTES & ENDNOTES (PRINT)
+   ============================= */
+@media print {
+  .footnotes,
+  .endnotes {
+    border-top: 2pt solid var(--print-border);
+    margin-top: 2em;
+    padding-top: 1em;
+    font-size: 9pt;
+    line-height: 1.3;
+  }
+  
+  .footnotes-title,
+  .endnotes-title {
+    font-size: 14pt;
+    margin-bottom: 1em;
+    font-family: 'Cinzel Decorative', serif;
+  }
+  
+  .footnotes-list,
+  .endnotes ol {
+    padding-left: 1.5em;
+  }
+  
+  .footnote-item,
+  .endnotes li {
+    margin-bottom: 0.5em;
+  }
+}
+
+/* =============================
+   UTILITIES (PRINT)
+   ============================= */
+@media print {
+  /* Hide screen-only elements */
+  .screen-only,
+  .no-print {
+    display: none !important;
+  }
+  
+  /* Print-only elements */
+  .print-only {
+    display: block !important;
+  }
+  
+  /* Text alignment */
+  .text-center { text-align: center; }
+  .text-right { text-align: right; }
+  .text-justify { text-align: justify; }
+  
+  /* Spacing utilities */
+  .mt-1 { margin-top: 0.5em; }
+  .mt-2 { margin-top: 1em; }
+  .mt-3 { margin-top: 1.5em; }
+  
+  .mb-1 { margin-bottom: 0.5em; }
+  .mb-2 { margin-bottom: 1em; }
+  .mb-3 { margin-bottom: 1.5em; }
+  
+  /* Font weight */
+  .font-bold { font-weight: bold; }
+  .font-italic { font-style: italic; }
+  
+  /* Colors for print */
+  .color-primary { color: var(--print-primary); }
+  .color-secondary { color: var(--print-secondary); }
+  .color-accent { color: var(--print-accent); }
+  .color-muted { color: var(--print-muted); }
+}
+
+/* =============================
+   RESPONSIVE PRINT (DIFFERENT SIZES)
+   ============================= */
+@media print and (max-width: 7in) {
+  /* Adjustments for smaller print formats */
+  body { font-size: 10pt; }
+  h1 { font-size: 20pt; }
+  h2 { font-size: 16pt; }
+  h3 { font-size: 12pt; }
+  
+  .chapter-number-text { font-size: 28pt; }
+  .chapter-title-word { font-size: 22pt; }
+  
+  .worksheet,
+  .quiz-container {
+    padding: 0.5em;
+  }
+}
+
+/* =============================
+   DEBUG PRINT STYLES (OPTIONAL)
+   ============================= */
+@media print {
+  .debug-print {
+    outline: 1pt solid red;
+  }
+  
+  .debug-print::before {
+    content: attr(class);
+    display: block;
+    font-size: 8pt;
+    color: red;
+    margin-bottom: 0.5em;
+  }
+}

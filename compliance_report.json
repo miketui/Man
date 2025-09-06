@@ -1,0 +1,170 @@
+{
+  "summary": {
+    "total": 16,
+    "compliant": 16,
+    "non_compliant": 0,
+    "compliance_rate": 100.0
+  },
+  "details": {
+    "9-chapter-i-unveiling-your-creative-odyssey.xhtml": {
+      "file": "9-chapter-i-unveiling-your-creative-odyssey.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 37019,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "19-chapter-ix-stepping-into-leadership.xhtml": {
+      "file": "19-chapter-ix-stepping-into-leadership.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 47216,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml": {
+      "file": "13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 40505,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "11-chapter-iii-reigniting-your-creative-fire.xhtml": {
+      "file": "11-chapter-iii-reigniting-your-creative-fire.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 23115,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "10-chapter-ii-refining-your-creative-toolkit.xhtml": {
+      "file": "10-chapter-ii-refining-your-creative-toolkit.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 29717,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "17-chapter-viii-advancing-skills-through-continuous-education.xhtml": {
+      "file": "17-chapter-viii-advancing-skills-through-continuous-education.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 55690,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "16-chapter-vii-embracing-wellness-and-self-care.xhtml": {
+      "file": "16-chapter-vii-embracing-wellness-and-self-care.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 25359,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "15-chapter-vi-mastering-the-business-of-hairstyling.xhtml": {
+      "file": "15-chapter-vi-mastering-the-business-of-hairstyling.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 39640,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml": {
+      "file": "14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 44704,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "27-chapter-xvi-tresses-and-textures-embracing-diversity-in-hairstyling.xhtml": {
+      "file": "27-chapter-xvi-tresses-and-textures-embracing-diversity-in-hairstyling.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 38728,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "26-chapter-xv-cultivating-resilience-and-well-being-in-hairstyling.xhtml": {
+      "file": "26-chapter-xv-cultivating-resilience-and-well-being-in-hairstyling.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 36342,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "25-chapter-xiv-the-impact-of-ai-on-the-beauty-industry.xhtml": {
+      "file": "25-chapter-xiv-the-impact-of-ai-on-the-beauty-industry.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 48049,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "23-chapter-xiii-embracing-ethics-and-sustainability-in-hairstyling.xhtml": {
+      "file": "23-chapter-xiii-embracing-ethics-and-sustainability-in-hairstyling.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 56249,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "22-chapter-xii-financial-wisdom-building-sustainable-ventures.xhtml": {
+      "file": "22-chapter-xii-financial-wisdom-building-sustainable-ventures.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 46408,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "21-chapter-xi-advanced-digital-strategies-for-freelance-hairstylists.xhtml": {
+      "file": "21-chapter-xi-advanced-digital-strategies-for-freelance-hairstylists.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 42863,
+      "has_fonts": true,
+      "has_structure": true
+    },
+    "20-chapter-x-crafting-enduring-legacies.xhtml": {
+      "file": "20-chapter-x-crafting-enduring-legacies.xhtml",
+      "compliant": true,
+      "issues": [],
+      "missing_required": [],
+      "unreplaced_vars": [],
+      "file_size": 47428,
+      "has_fonts": true,
+      "has_structure": true
+    }
+  }
+}

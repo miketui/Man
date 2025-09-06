@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Curls &amp; Contemplation: A Stylist's Interactive Journey Journal</dc:title>
+    <dc:creator>MD Warren</dc:creator>
+    <dc:identifier id="BookId">urn:uuid:9fa5e2ef-5fd8-4f5b-9077-0b9e856cda3d</dc:identifier>
+    <dc:language>en-US</dc:language>
+    <dc:date>2025-05-27</dc:date>
+    <dc:rights>&#169; 2025 MD Warren. All rights reserved.</dc:rights>
+    <dc:publisher>MD Warren</dc:publisher>
+    <dc:subject>Beauty</dc:subject>
+    <dc:subject>Business</dc:subject>
+    <dc:subject>Personal Development</dc:subject>
+    <dc:subject>Hairstyling</dc:subject>
+    <dc:description>An interactive journey journal for professional hairstylists featuring 16 comprehensive chapters, quizzes, worksheets, and practical strategies for building a successful, conscious hairstyling practice. Includes business development, networking, sustainability, and personal growth content with embedded fonts and professional design elements.</dc:description>
+    <meta property="dcterms:modified">2025-08-30T12:00:00Z</meta>
+    
+    <!-- EPUB Accessibility 1.1 Metadata (EU Accessibility Act Compliance) -->
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">headings</meta>
+    <meta property="schema:accessibilityFeature">printPageNumbers</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilitySummary">This publication meets WCAG 2.1 Level AA accessibility standards. All images include alternative text, content follows logical reading order, navigation is clearly structured with headings and table of contents. Interactive quizzes and worksheets are accessible via keyboard navigation and screen readers.</meta>
+    
+    <!-- Marketing and Discovery Metadata -->
+    <meta property="dcterms:audience">Professional hairstylists, beauty industry professionals, salon owners, freelance stylists</meta>
+    <meta property="schema:genre">Business Development</meta>
+    <meta property="schema:genre">Professional Development</meta>
+    <meta property="schema:genre">Beauty Industry</meta>
+    <meta property="schema:keywords">hairstyling, professional development, salon business, freelance stylist, beauty industry, networking, sustainability, interactive journal, career growth</meta>
+    <meta property="schema:typicalAgeRange">18+</meta>
+    
+    <!-- Enhanced Marketing Metadata for Platform Optimization -->
+    <meta property="belongs-to-collection" id="collection">Curls &amp; Contemplation Professional Development Series</meta>
+    <meta refines="#collection" property="collection-type">series</meta>
+    <meta refines="#collection" property="group-position">1</meta>
+    
+    <!-- BISAC Subject Codes for Better Categorization -->
+    <meta property="schema:audience" id="audience1">Professional hairstylists</meta>
+    <meta property="schema:audience" id="audience2">Beauty industry professionals</meta>
+    <meta property="schema:audience" id="audience3">Salon owners and managers</meta>
+    <meta property="schema:audience" id="audience4">Freelance beauty professionals</meta>
+    
+    <!-- Additional Discovery Metadata -->
+    <meta property="schema:contentRating">General Audiences</meta>
+    <meta property="schema:inLanguage">en-US</meta>
+    <meta property="schema:bookFormat">EBook</meta>
+    <meta property="schema:numberOfPages">300</meta>
+    <meta property="schema:copyrightYear">2025</meta>
+    
+    <!-- Series Information (EPUB Standard) -->
+    <meta property="dcterms:isPartOf">Professional Beauty Development Series</meta>
+  </metadata>
+  
+  <manifest>
+    <!-- Front Matter -->
+    <item id="text001" href="text/1-TitlePage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text002" href="text/2-Copyright.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text003" href="text/3-TableOfContents.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text004" href="text/4-Dedication.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text005" href="text/5-SelfAssessment.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text006" href="text/6-affirmation-odyssey.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text007" href="text/7-Preface.xhtml" media-type="application/xhtml+xml"/>
+    
+    <!-- Part I -->
+    <item id="text008" href="text/8-Part-I-Foundations-of-Creative-Hairstyling.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text009" href="text/9-chapter-i-unveiling-your-creative-odyssey.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text010" href="text/10-chapter-ii-refining-your-creative-toolkit.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text011" href="text/11-chapter-iii-reigniting-your-creative-fire.xhtml" media-type="application/xhtml+xml"/>
+    
+    <!-- Part II -->
+    <item id="text012" href="text/12-Part-II-Building-Your-Professional-Practice.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text013" href="text/13-chapter-iv-the-art-of-networking-in-freelance-hairstyling.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text014" href="text/14-chapter-v-cultivating-creative-excellence-through-mentorship.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text015" href="text/15-chapter-vi-mastering-the-business-of-hairstyling.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text016" href="text/16-chapter-vii-embracing-wellness-and-self-care.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text017" href="text/17-chapter-viii-advancing-skills-through-continuous-education.xhtml" media-type="application/xhtml+xml"/>
+    
+    <!-- Part III -->
+    <item id="text018" href="text/18-Part-III-Advanced-Business-Strategies.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text019" href="text/19-chapter-ix-stepping-into-leadership.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text020" href="text/20-chapter-x-crafting-enduring-legacies.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text021" href="text/21-chapter-xi-advanced-digital-strategies-for-freelance-hairstylists.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text022" href="text/22-chapter-xii-financial-wisdom-building-sustainable-ventures.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text023" href="text/23-chapter-xiii-embracing-ethics-and-sustainability-in-hairstyling.xhtml" media-type="application/xhtml+xml"/>
+    
+    <!-- Part IV -->
+    <item id="text024" href="text/24-Part-IV-Future-Focused-Growth.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text025" href="text/25-chapter-xiv-the-impact-of-ai-on-the-beauty-industry.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text026" href="text/26-chapter-xv-cultivating-resilience-and-well-being-in-hairstyling.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text027" href="text/27-chapter-xvi-tresses-and-textures-embracing-diversity-in-hairstyling.xhtml" media-type="application/xhtml+xml"/>
+    
+    <!-- Back Matter -->
+    <item id="text028" href="text/28-Conclusion.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="text029" href="text/29QuizKey.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text030" href="text/30-SelfAssessment.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text031" href="text/31-affirmations-close.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text032" href="text/32-continued-learning-commitment.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text033" href="text/33-Acknowledgments.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text034" href="text/34-AbouttheAuthor.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text035" href="text/35-CurlsContempCollective.xhtml" media-type="application/xhtml+xml"/>
+    
+    <!-- Interactive Journals -->
+    <item id="text036" href="text/36-JournalingStart.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text037" href="text/37-ManifestingJournal.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text038" href="text/38-journal-page.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text039" href="text/39-professional-development.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text040" href="text/40-SMARTGoals.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text041" href="text/41-self-care-journal.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text042" href="text/42-VisionJournal.xhtml" media-type="application/xhtml+xml"/>
+    <item id="text043" href="text/43-DoodlePage.xhtml" media-type="application/xhtml+xml"/>
+    
+    <!-- Bibliography -->
+    <item id="text044" href="text/44-bibliography.xhtml" media-type="application/xhtml+xml"/>
+    
+    <!-- Navigation -->
+    <item id="nav" href="text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="css1" href="styles/style.css" media-type="text/css"/>
+    <item id="css2" href="styles/fonts.css" media-type="text/css"/>
+    <item id="css3" href="styles/print.css" media-type="text/css"/>
+    <item id="font1" href="fonts/Montserrat-Regular.woff2" media-type="font/woff2"/>
+    <item id="font2" href="fonts/Montserrat-Bold.woff2" media-type="font/woff2"/>
+    <item id="font3" href="fonts/librebaskerville-regular.woff2" media-type="font/woff2"/>
+    <item id="font4" href="fonts/librebaskerville-italic.woff2" media-type="font/woff2"/>
+    <item id="font5" href="fonts/librebaskerville-bold.woff2" media-type="font/woff2"/>
+    <item id="font6" href="fonts/CinzelDecorative.woff2" media-type="font/woff2"/>
+    <item id="img1" href="images/decorative-line.JPEG" media-type="image/jpeg"/>
+    <item id="img2" href="images/endnote-marker.PNG" media-type="image/png"/>
+    <item id="img3" href="images/chapter-iv-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img4" href="images/toc-divider.PNG" media-type="image/png"/>
+    <item id="img5" href="images/Michael.JPEG" media-type="image/jpeg"/>
+    <item id="img6" href="images/brushstroke.JPEG" media-type="image/jpeg"/>
+    <item id="img7" href="images/part-border.JPEG" media-type="image/jpeg"/>
+    <item id="img8" href="images/chapter-xiv-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img9" href="images/chapter-iii-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img10" href="images/quote-marks.PNG" media-type="image/png"/>
+    <item id="img11" href="images/chapter-xi-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img12" href="images/chapter-v-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img13" href="images/chapter-vii-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img14" href="images/chapter-x-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img15" href="images/preface-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img16" href="images/chapter-xiii-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img17" href="images/chapter-vi-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img18" href="images/chapter-frame.PNG" media-type="image/png"/>
+    <item id="img19" href="images/chapter-ii-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img20" href="images/quiz-checkbox.PNG" media-type="image/png"/>
+    <item id="img21" href="images/chapter-viii-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img22" href="images/conclusion-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img23" href="images/chapter-xvi-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img24" href="images/crown-ornament.PNG" media-type="image/png"/>
+    <item id="img25" href="images/chapter-xii-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img26" href="images/chapter-ix-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img27" href="images/chapter-i-quote.JPEG" media-type="image/jpeg"/>
+    <item id="img28" href="images/ruled-paper.JPEG" media-type="image/jpeg"/>
+    <item id="img29" href="images/chapter-xv-quote.JPEG" media-type="image/jpeg"/>
+  </manifest>
+  
+  <spine>
+    <!-- Front Matter -->
+    <itemref idref="text001"/> <!-- Title Page -->
+    <itemref idref="text002"/> <!-- Copyright -->
+    <itemref idref="text003"/> <!-- Table of Contents -->
+    <itemref idref="text004"/> <!-- Dedication -->
+    <itemref idref="text005"/> <!-- Self Assessment -->
+    <itemref idref="text006"/> <!-- Affirmation Odyssey -->
+    <itemref idref="text007"/> <!-- Preface -->
+    
+    <!-- Part I: Foundations -->
+    <itemref idref="text008"/> <!-- Part I Divider -->
+    <itemref idref="text009"/> <!-- Chapter I -->
+    <itemref idref="text010"/> <!-- Chapter II -->
+    <itemref idref="text011"/> <!-- Chapter III -->
+    
+    <!-- Part II: Professional Practice -->
+    <itemref idref="text012"/> <!-- Part II Divider -->
+    <itemref idref="text013"/> <!-- Chapter IV -->
+    <itemref idref="text014"/> <!-- Chapter V -->
+    <itemref idref="text015"/> <!-- Chapter VI -->
+    <itemref idref="text016"/> <!-- Chapter VII -->
+    <itemref idref="text017"/> <!-- Chapter VIII -->
+    
+    <!-- Part III: Advanced Business -->
+    <itemref idref="text018"/> <!-- Part III Divider -->
+    <itemref idref="text019"/> <!-- Chapter IX -->
+    <itemref idref="text020"/> <!-- Chapter X -->
+    <itemref idref="text021"/> <!-- Chapter XI -->
+    <itemref idref="text022"/> <!-- Chapter XII -->
+    <itemref idref="text023"/> <!-- Chapter XIII -->
+    
+    <!-- Part IV: Future Growth -->
+    <itemref idref="text024"/> <!-- Part IV Divider -->
+    <itemref idref="text025"/> <!-- Chapter XIV -->
+    <itemref idref="text026"/> <!-- Chapter XV -->
+    <itemref idref="text027"/> <!-- Chapter XVI -->
+    
+    <!-- Conclusion and Back Matter -->
+    <itemref idref="text028"/> <!-- Conclusion -->
+    <itemref idref="text029"/> <!-- Quiz Key -->
+    <itemref idref="text030"/> <!-- Self Assessment (Post) -->
+    <itemref idref="text031"/> <!-- Affirmations Close -->
+    <itemref idref="text032"/> <!-- Continued Learning -->
+    <itemref idref="text033"/> <!-- Acknowledgments -->
+    <itemref idref="text034"/> <!-- About the Author -->
+    <itemref idref="text035"/> <!-- Curls Collective -->
+    
+    <!-- Interactive Journals -->
+    <itemref idref="text036"/> <!-- Journaling Start -->
+    <itemref idref="text037"/> <!-- Manifesting Journal -->
+    <itemref idref="text038"/> <!-- Journal Page -->
+    <itemref idref="text039"/> <!-- Professional Development -->
+    <itemref idref="text040"/> <!-- SMART Goals -->
+    <itemref idref="text041"/> <!-- Self-Care Journal -->
+    <itemref idref="text042"/> <!-- Vision Journal -->
+    <itemref idref="text043"/> <!-- Doodle Page -->
+    
+    <!-- Bibliography -->
+    <itemref idref="text044"/> <!-- Bibliography -->
+  </spine>
+</package>
