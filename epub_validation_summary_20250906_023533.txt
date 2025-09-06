@@ -1,0 +1,39 @@
+COMPREHENSIVE EPUB VALIDATION REPORT
+==================================================
+Generated: 2025-09-06 02:35:33
+Total Files Validated: 8
+Valid Files: 6
+Invalid Files: 2
+
+✅ VALID: Curls-Contemplation-Stylists-Journey-BESTSELLER-20250830-030449.epub
+  Size: 2,255,158 bytes
+  Errors: 0, Warnings: 0
+
+✅ VALID: Curls-Contemplation-Stylists-Journey-ENHANCED.epub
+  Size: 2,254,602 bytes
+  Errors: 0, Warnings: 0
+
+✅ VALID: Curls-Contemplation-Stylists-Journey-FINAL.epub
+  Size: 2,255,040 bytes
+  Errors: 0, Warnings: 0
+
+✅ VALID: Curls-Contemplation-Stylists-Journey-PERFECT.epub
+  Size: 2,253,399 bytes
+  Errors: 0, Warnings: 0
+
+❌ INVALID: Curls-Contemplation-Stylists-Journey-PROFESSIONAL-BESTSELLER-20250830-080727.epub
+  Size: 2,259,103 bytes
+  Errors: 0, Warnings: 0
+
+✅ VALID: Curls-Contemplation-Stylists-Journey-PROFESSIONAL-BESTSELLER-20250830-080822.epub
+  Size: 2,259,407 bytes
+  Errors: 0, Warnings: 0
+
+✅ VALID: Curls-Contemplation-Stylists-Journey-PUBLISHABLE-20250830-032523.epub
+  Size: 2,255,284 bytes
+  Errors: 0, Warnings: 0
+
+❌ INVALID: Curls-Contemplation-Stylists-Journey.epub
+  Size: 2,253,775 bytes
+  Errors: 0, Warnings: 0
+
